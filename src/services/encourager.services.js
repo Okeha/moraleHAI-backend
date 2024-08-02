@@ -42,7 +42,6 @@ const generateResume = async (req, res) => {
     //     },
     //   ],
     // };
-
     const response = await axios.post(url, prompt, {
       headers: {
         "Content-Type": "application/json",
