@@ -5,7 +5,7 @@ const { validateGenerateResume } = require("../validator/encourager.validator");
 const resumeGeneratorRouter = express.Router();
 
 resumeGeneratorRouter.post(
-  "/generate_resume",
+  "/generate_encouragement",
   validateGenerateResume,
   defaultRateLimit,
   generateResume
