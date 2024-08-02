@@ -49,7 +49,7 @@ const generateResume = async (req, res) => {
       },
     });
 
-    console.log(response);
+    // console.log(response);
     return res.status(201).json({
       success: true,
       body: { data: response.data.choices[0].message.content },
